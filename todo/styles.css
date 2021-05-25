@@ -1,0 +1,35 @@
+body {
+    width: 50%;
+    margin: 0 auto;
+    background: #EB3349;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F45C43, #EB3349);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F45C43, #EB3349); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+#inputField {
+    width: 300px;
+    height: 46px;
+    border-width: 0;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+
+.p-style {
+    margin: 2px;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 20px 10px;
+    background-color: tomato;
+    border: 1px solid #333;
+}
+
+.to-dos {
+    margin-top: 25px;
+}
